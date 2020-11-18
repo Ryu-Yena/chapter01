@@ -14,7 +14,8 @@ public class Ex10 {
 			
 			if(num==0) {
 				System.out.println("종료");
-				break;
+				action=false;
+				//break;
 			}else if(num%3==0) {
 				System.out.println("3의 배수입니다.");
 			}else {
